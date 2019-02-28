@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: abf671e9fd0dfd340a5e9a356189443a
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Medieval Tudor Brick
+    2800000: Medieval Tudor Brick - baseColor
+    2800002: Medieval Tudor Brick - normal
+    2800004: Medieval Tudor Brick - metallic
+    2800006: Medieval Tudor Brick - height
+    2800008: Medieval Tudor Brick - ambientOcclusion
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Medieval Tudor Brick
+    prototypeName: Medieval Tudor Brick
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://medieval_tudor_brick\" label=\"\" >\n  <presetinput
+      identifier=\"bricks_column_amount\" uid=\"613426420\" type=\"4\" value=\"2\"
+      />\n  <presetinput identifier=\"bricks_row_amount\" uid=\"613422941\" type=\"4\"
+      value=\"40\" />\n  <presetinput identifier=\"bricks_per_row\" uid=\"612484730\"
+      type=\"4\" value=\"1\" />\n  <presetinput identifier=\"bricks_cracks_amount\"
+      uid=\"611356862\" type=\"0\" value=\"0.361\" />\n  <presetinput identifier=\"mortar_thickness\"
+      uid=\"611798355\" type=\"0\" value=\"0.273\" />\n  <presetinput identifier=\"mortar_sloppiness_random_position\"
+      uid=\"613266608\" type=\"0\" value=\"0.773\" />\n  <presetinput identifier=\"brick_color_variance_intensity\"
+      uid=\"614375702\" type=\"0\" value=\"0.477\" />\n  <presetinput identifier=\"beams_vertical_thickness\"
+      uid=\"611994849\" type=\"0\" value=\"0.262\" />\n  <presetinput identifier=\"beams_horizontal_amount\"
+      uid=\"613005813\" type=\"4\" value=\"6\" />\n  <presetinput identifier=\"beams_horizontal_thickness\"
+      uid=\"612998910\" type=\"0\" value=\"0.204\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: Medieval Tudor Brick - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Tudor Brick - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: abf671e9fd0dfd340a5e9a356189443a, type: 3}
+    generatedTextures: []

@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 81060df4b1785614cbf46264c2db95cf
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Plain Leather
+    2800000: Plain Leather - baseColor
+    2800002: Plain Leather - normal
+    2800004: Plain Leather - metallic
+    2800006: Plain Leather - ambientOcclusion
+    2800008: Plain Leather - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Plain Leather
+    prototypeName: Plain Leather
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Leather_Plain\" label=\"\" >\n  <presetinput
+      identifier=\"Advanced_Parameters_Main_Leather_Main_Color\" uid=\"4240419743\"
+      type=\"3\" value=\"0.226415,0.137269,0.0886436,1\" />\n  <presetinput identifier=\"Advanced_Parameters_Main_Leather_Folds_Intensity\"
+      uid=\"4240419741\" type=\"0\" value=\"0.3\" />\n  <presetinput identifier=\"Advanced_Parameters_Main_Leather_Folds_Scale\"
+      uid=\"4240419739\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"Advanced_Parameters_Main_Leather_Discoloration_Intensity\"
+      uid=\"4240419737\" type=\"0\" value=\"0.153\" />\n  <presetinput identifier=\"Advanced_Parameters_Main_Leather_Base_Roughness\"
+      uid=\"4240419751\" type=\"0\" value=\"0.769\" />\n  <presetinput identifier=\"Advanced_Parameters_Main_Leather_Roughness_Variation_Intensity\"
+      uid=\"4240419749\" type=\"0\" value=\"0.912\" />\n  <presetinput identifier=\"Advanced_Parameters_Main_Leather_Spots_Intensity\"
+      uid=\"4240419747\" type=\"0\" value=\"0.419\" />\n  <presetinput identifier=\"Advanced_Parameters_Aging_Aging_Amount\"
+      uid=\"4240419765\" type=\"0\" value=\"0.603\" />\n  <presetinput identifier=\"Advanced_Parameters_Dirt_Dirt_Intensity\"
+      uid=\"4240419761\" type=\"0\" value=\"0.29\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Plain Leather - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Plain Leather - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 81060df4b1785614cbf46264c2db95cf, type: 3}
+    generatedTextures: []

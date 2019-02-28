@@ -1,0 +1,103 @@
+fileFormatVersion: 2
+guid: 6c3d6ee91120e9946847add0c92e052e
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: 'Heavy Cork '
+    2800000: Heavy Cork  - baseColor
+    2800002: Heavy Cork  - normal
+    2800004: Heavy Cork  - metallic
+    2800006: Heavy Cork  - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: 'Heavy Cork '
+    prototypeName: 'Heavy Cork '
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://cork_heavy\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Heavy Cork  - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Heavy Cork  - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 6c3d6ee91120e9946847add0c92e052e, type: 3}
+    generatedTextures: []

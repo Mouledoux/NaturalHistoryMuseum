@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 1acc2d6ec5b707149874284b1bf88ae5
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Medieval Castle Wall
+    2800000: Medieval Castle Wall - baseColor
+    2800002: Medieval Castle Wall - normal
+    2800004: Medieval Castle Wall - metallic
+    2800006: Medieval Castle Wall - height
+    2800008: Medieval Castle Wall - ambientOcclusion
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Medieval Castle Wall
+    prototypeName: Medieval Castle Wall
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://medieval_castle_wall\" label=\"\" >\n  <presetinput
+      identifier=\"$randomseed\" uid=\"2916151330\" type=\"4\" value=\"5532\" />\n
+      \ <presetinput identifier=\"blocks_horizontal_amount\" uid=\"2412190270\" type=\"4\"
+      value=\"11\" />\n  <presetinput identifier=\"blocks_vertical_amount\" uid=\"2412198846\"
+      type=\"4\" value=\"7\" />\n  <presetinput identifier=\"blocks_width_random\"
+      uid=\"2412144270\" type=\"0\" value=\"0.379\" />\n  <presetinput identifier=\"blocks_row_height_random\"
+      uid=\"2412120179\" type=\"0\" value=\"0.705\" />\n  <presetinput identifier=\"blocks_rotation_random\"
+      uid=\"2413672532\" type=\"0\" value=\"0.641\" />\n  <presetinput identifier=\"blocks_position_offset_random\"
+      uid=\"2409546357\" type=\"0\" value=\"0.173\" />\n  <presetinput identifier=\"blocks_roundness\"
+      uid=\"2399951057\" type=\"0\" value=\"0.755\" />\n  <presetinput identifier=\"blocks_depth_random\"
+      uid=\"2415008744\" type=\"0\" value=\"0.764\" />\n  <presetinput identifier=\"blocks_depth_random_intensity\"
+      uid=\"2400151306\" type=\"0\" value=\"0.173\" />\n  <presetinput identifier=\"blocks_angle_random\"
+      uid=\"2411765066\" type=\"0\" value=\"0.147\" />\n  <presetinput identifier=\"blocks_surface_roughness\"
+      uid=\"2413570619\" type=\"0\" value=\"0.116\" />\n  <presetinput identifier=\"blocks_cracked_amount\"
+      uid=\"2399940915\" type=\"0\" value=\"0.265\" />\n  <presetinput identifier=\"blocks_surface_erosion_position_random\"
+      uid=\"2413438680\" type=\"0\" value=\"0.265\" />\n  <presetinput identifier=\"blocks_color_a\"
+      uid=\"2409779924\" type=\"3\" value=\"0.509434,0.326702,0.112941,1\" />\n  <presetinput
+      identifier=\"blocks_color_b\" uid=\"2409776419\" type=\"3\" value=\"0.59434,0.526121,0.389685,1\"
+      />\n  <presetinput identifier=\"blocks_color_variance_random\" uid=\"2412680470\"
+      type=\"0\" value=\"0.652\" />\n  <presetinput identifier=\"mortar_thickness\"
+      uid=\"2412513485\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"moss_amount\"
+      uid=\"2415819602\" type=\"0\" value=\"0.515\" />\n  <presetinput identifier=\"moss_spread\"
+      uid=\"2409759851\" type=\"0\" value=\"0.287\" />\n  <presetinput identifier=\"moss_color\"
+      uid=\"2415115525\" type=\"3\" value=\"0.276158,0.396226,0,1\" />\n  <presetinput
+      identifier=\"moss_color_variance\" uid=\"2415115624\" type=\"0\" value=\"0.572\"
+      />\n  <presetinput identifier=\"lichen_amount\" uid=\"2409881742\" type=\"0\"
+      value=\"0.19\" />\n  <presetinput identifier=\"luminosity\" uid=\"4294860747\"
+      type=\"0\" value=\"0.436\" />\n  <presetinput identifier=\"contrast\" uid=\"2155583209\"
+      type=\"0\" value=\"-0.15\" />\n  <presetinput identifier=\"saturation\" uid=\"4294860766\"
+      type=\"0\" value=\"0.532\" />\n  <presetinput identifier=\"normal_intensity\"
+      uid=\"4294942890\" type=\"0\" value=\"0.173\" />\n  <presetinput identifier=\"height_position\"
+      uid=\"2279582970\" type=\"0\" value=\"0.949\" />\n  <presetinput identifier=\"ambientocclusion_intensity\"
+      uid=\"2374807552\" type=\"0\" value=\"0.802\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height,ambientOcclusion
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: metallic
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    textureParameters:
+    - textureName: Medieval Castle Wall - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Medieval Castle Wall - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 0
+    - outputName: height
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 1acc2d6ec5b707149874284b1bf88ae5, type: 3}
+    generatedTextures: []

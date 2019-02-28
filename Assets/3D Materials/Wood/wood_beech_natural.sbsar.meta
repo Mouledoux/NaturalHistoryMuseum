@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: dfc1ad2378a05ba419123dfbd9b6ccf3
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Beech Natural Wood
+    2800000: Beech Natural Wood - baseColor
+    2800002: Beech Natural Wood - normal
+    2800004: Beech Natural Wood - metallic
+    2800006: Beech Natural Wood - ambientOcclusion
+    2800008: Beech Natural Wood - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Beech Natural Wood
+    prototypeName: Beech Natural Wood
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://wood_beech_natural\" label=\"\" >\n  <presetinput
+      identifier=\"knots\" uid=\"503950565\" type=\"0\" value=\"0\" />\n  <presetinput
+      identifier=\"fibers\" uid=\"374088343\" type=\"0\" value=\"0\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Beech Natural Wood - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Beech Natural Wood - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: dfc1ad2378a05ba419123dfbd9b6ccf3, type: 3}
+    generatedTextures: []

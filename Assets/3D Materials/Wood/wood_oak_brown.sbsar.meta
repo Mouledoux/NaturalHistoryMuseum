@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: c69ca57c90480424a9e312b3d4b66679
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: 'Brown Oak '
+    2800000: Brown Oak  - baseColor
+    2800002: Brown Oak  - normal
+    2800004: Brown Oak  - metallic
+    2800006: Brown Oak  - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: 'Brown Oak '
+    prototypeName: 'Brown Oak '
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://wood_oak_brown\" label=\"\" >\n  <presetinput
+      identifier=\"color\" uid=\"383421162\" type=\"2\" value=\"0.896226,0.701591,0.477706\"
+      />\n  <presetinput identifier=\"veins_contrast\" uid=\"372353779\" type=\"0\"
+      value=\"0\" />\n  <presetinput identifier=\"finish_type\" uid=\"383689721\"
+      type=\"4\" value=\"3\" />\n  <presetinput identifier=\"Finish_Varnish_Varnish_Roughness_Intensity\"
+      uid=\"383424471\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"knots_amount\"
+      uid=\"380446619\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"wood_roughness\"
+      uid=\"383143912\" type=\"0\" value=\"0\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Brown Oak  - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Brown Oak  - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: c69ca57c90480424a9e312b3d4b66679, type: 3}
+    generatedTextures: []
