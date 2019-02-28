@@ -38285,8 +38285,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771471906}
-  m_LocalRotation: {x: -0.21859719, y: 0.5002779, z: 0.13218527, w: 0.8273237}
-  m_LocalPosition: {x: -9.846365, y: -3.532147, z: -4.9563437}
+  m_LocalRotation: {x: 0.17051305, y: 0.18014449, z: 0.03172404, w: -0.96822876}
+  m_LocalPosition: {x: -28.335005, y: 0.20314646, z: -31.53095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 236389016}
@@ -39633,6 +39633,18 @@ PrefabInstance:
     - target: {fileID: 11479906, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: switchToScene
       value: Interior
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479906, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: newSceneStartPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479906, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: newSceneStartPosition.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479906, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: newSceneStartPosition.z
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 101508, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_IsActive
