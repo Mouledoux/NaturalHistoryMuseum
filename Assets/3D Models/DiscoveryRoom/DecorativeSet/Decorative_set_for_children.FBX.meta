@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 6fdc72d6fb924fa48a7b2bb8e8f4e969
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 01
+    100002: 02
+    100004: 03
+    100006: 1
+    100008: 1 book
+    100010: 1 book001
+    100012: 141
+    100014: 2 book
+    100016: 2 book001
+    100018: 2 book002
+    100020: 2 book003
+    100022: 3 book
+    100024: 3 book001
+    100026: 3 book002
+    100028: 3 book003
+    100030: 4 book
+    100032: 4 book001
+    100034: 4 book002
+    100036: 4 book003
+    100038: 5 book
+    100040: 5 book001
+    100042: 5 book002
+    100044: 5 book003
+    100046: 6 book
+    100048: Ball Basket
+    100050: Ball futbool
+    100052: book
+    100054: book 1
+    100056: boook
+    100058: Box
+    100060: Box 1
+    100062: Box 2
+    100064: Box 3
+    100066: Box 4
+    100068: Box 5
+    100070: Box 6
+    100072: Box 7
+    100074: Box001
+    100076: Box002
+    100078: Box003
+    100080: Box004
+    100082: Box005
+    100084: Box006
+    100086: Box007
+    100088: Box008
+    100090: Box009
+    100092: Box049
+    100094: Box052
+    100096: Box054
+    100098: Box055
+    100100: Box056
+    100102: Box057
+    100104: Box058
+    100106: Box059
+    100108: Box060
+    100110: Box061
+    100112: Box062
+    100114: Box063
+    100116: Box064
+    100118: Box065
+    100120: Box066
+    100122: Box067
+    100124: Box068
+    100126: Box069
+    100128: Box070
+    100130: Box071
+    100132: Box072
+    100134: Box073
+    100136: Box074
+    100138: Box075
+    100140: Box076
+    100142: Box077
+    100144: Box078
+    100146: Box1
+    100148: caps ny
+    100150: chair
+    100152: chair 1
+    100154: chair001
+    100156: chair002
+    100158: chair003
+    100160: chet
+    100162: cub
+    100164: cuba ruba
+    100166: cube
+    100168: cube 1
+    100170: Cylinder001
+    100172: Cylinder003
+    100174: Cylinder004
+    100176: Cylinder005
+    100178: Cylinder006
+    100180: Cylinder007
+    100182: Cylinder008
+    100184: Cylinder009
+    100186: Cylinder010
+    100188: Cylinder011
+    100190: Cylinder012
+    100192: Cylinder013
+    100194: Cylinder014
+    100196: Cylinder015
+    100198: Cylinder016
+    100200: Cylinder017
+    100202: Cylinder017 1
+    100204: Cylinder018
+    100206: Cylinder019
+    100208: Cylinder020
+    100210: Cylinder021
+    100212: Cylinder022
+    100214: Cylinder023
+    100216: Cylinder024
+    100218: Cylinder025
+    100220: Cylinder026
+    100222: Cylinder027
+    100224: Cylinder028
+    100226: Cylinder029
+    100228: Cylinder030
+    100230: Cylinder031
+    100232: Cylinder032
+    100234: Cylinder033
+    100236: Cylinder034
+    100238: Cylinder035
+    100240: Cylinder036
+    100242: Cylinder037
+    100244: Cylinder038
+    100246: Cylinder039
+    100248: Cylinder040
+    100250: Cylinder041
+    100252: Cylinder042
+    100254: Cylinder043
+    100256: Cylinder044
+    100258: Cylinder045
+    100260: Cylinder046
+    100262: Cylinder047
+    100264: Cylinder048
+    100266: Cylinder049
+    100268: Cylinder050
+    100270: Cylinder051
+    100272: //RootNode
+    100274: Group001
+    100276: Group002
+    100278: Group003
+    100280: Group004
+    100282: Group005
+    100284: Group006
+    100286: Group007
+    100288: Group008
+    100290: Group009
+    100292: Group010
+    100294: Group011
+    100296: Group012
+    100298: Group013
+    100300: Group1
+    100302: Group2
+    100304: Group21209
+    100306: Group21210
+    100308: Group21211
+    100310: Group3
+    100312: Group5
+    100314: Line010
+    100316: Line011
+    100318: Line012
+    100320: Line013
+    100322: Line014
+    100324: Line015
+    100326: Line016
+    100328: Line017
+    100330: Line018
+    100332: Line019
+    100334: Line020
+    100336: Line021
+    100338: Line022
+    100340: Line023
+    100342: Line024
+    100344: logo
+    100346: pensel
+    100348: pensel 1
+    100350: pensel001
+    100352: pensel002
+    100354: pensel003
+    100356: pensel004
+    100358: pensel005
+    100360: pensel006
+    100362: pensel007
+    100364: pensel008
+    100366: pensel009
+    100368: pensel010
+    100370: pensel011
+    100372: pensel012
+    100374: pensel013
+    100376: pensel014
+    100378: pensel015
+    100380: pensilbox
+    100382: pensilbox001
+    100384: pic
+    100386: pic 1
+    100388: piramida001
+    100390: Shape004
+    100392: Shape007
+    100394: Shape008
+    100396: Shape009
+    100398: Shape010
+    100400: Shape011
+    100402: Shape012
+    100404: Shape1
+    100406: Shape1 1
+    100408: Shape2
+    100410: Shape3
+    100412: Shape4
+    100414: Shape6
+    100416: skateboard 1
+    100418: skateboard 4
+    100420: Sphere001
+    100422: Sphere002
+    100424: sss
+    100426: sss 1
+    100428: sss 2
+    100430: sss005
+    100432: sss006
+    100434: table
+    100436: Torus001
+    100438: Torus002
+    100440: Torus003
+    100442: Torus004
+    100444: Torus005
+    100446: Torus006
+    100448: Torus007
+    100450: Torus008
+    100452: Torus009
+    100454: Torus010
+    100456: Torus011
+    100458: Torus012
+    100460: ZBrush_defualt_group
+    100462: "\u043B\u0435\u0433\u043E"
+    400000: 01
+    400002: 02
+    400004: 03
+    400006: 1
+    400008: 1 book
+    400010: 1 book001
+    400012: 141
+    400014: 2 book
+    400016: 2 book001
+    400018: 2 book002
+    400020: 2 book003
+    400022: 3 book
+    400024: 3 book001
+    400026: 3 book002
+    400028: 3 book003
+    400030: 4 book
+    400032: 4 book001
+    400034: 4 book002
+    400036: 4 book003
+    400038: 5 book
+    400040: 5 book001
+    400042: 5 book002
+    400044: 5 book003
+    400046: 6 book
+    400048: Ball Basket
+    400050: Ball futbool
+    400052: book
+    400054: book 1
+    400056: boook
+    400058: Box
+    400060: Box 1
+    400062: Box 2
+    400064: Box 3
+    400066: Box 4
+    400068: Box 5
+    400070: Box 6
+    400072: Box 7
+    400074: Box001
+    400076: Box002
+    400078: Box003
+    400080: Box004
+    400082: Box005
+    400084: Box006
+    400086: Box007
+    400088: Box008
+    400090: Box009
+    400092: Box049
+    400094: Box052
+    400096: Box054
+    400098: Box055
+    400100: Box056
+    400102: Box057
+    400104: Box058
+    400106: Box059
+    400108: Box060
+    400110: Box061
+    400112: Box062
+    400114: Box063
+    400116: Box064
+    400118: Box065
+    400120: Box066
+    400122: Box067
+    400124: Box068
+    400126: Box069
+    400128: Box070
+    400130: Box071
+    400132: Box072
+    400134: Box073
+    400136: Box074
+    400138: Box075
+    400140: Box076
+    400142: Box077
+    400144: Box078
+    400146: Box1
+    400148: caps ny
+    400150: chair
+    400152: chair 1
+    400154: chair001
+    400156: chair002
+    400158: chair003
+    400160: chet
+    400162: cub
+    400164: cuba ruba
+    400166: cube
+    400168: cube 1
+    400170: Cylinder001
+    400172: Cylinder003
+    400174: Cylinder004
+    400176: Cylinder005
+    400178: Cylinder006
+    400180: Cylinder007
+    400182: Cylinder008
+    400184: Cylinder009
+    400186: Cylinder010
+    400188: Cylinder011
+    400190: Cylinder012
+    400192: Cylinder013
+    400194: Cylinder014
+    400196: Cylinder015
+    400198: Cylinder016
+    400200: Cylinder017
+    400202: Cylinder017 1
+    400204: Cylinder018
+    400206: Cylinder019
+    400208: Cylinder020
+    400210: Cylinder021
+    400212: Cylinder022
+    400214: Cylinder023
+    400216: Cylinder024
+    400218: Cylinder025
+    400220: Cylinder026
+    400222: Cylinder027
+    400224: Cylinder028
+    400226: Cylinder029
+    400228: Cylinder030
+    400230: Cylinder031
+    400232: Cylinder032
+    400234: Cylinder033
+    400236: Cylinder034
+    400238: Cylinder035
+    400240: Cylinder036
+    400242: Cylinder037
+    400244: Cylinder038
+    400246: Cylinder039
+    400248: Cylinder040
+    400250: Cylinder041
+    400252: Cylinder042
+    400254: Cylinder043
+    400256: Cylinder044
+    400258: Cylinder045
+    400260: Cylinder046
+    400262: Cylinder047
+    400264: Cylinder048
+    400266: Cylinder049
+    400268: Cylinder050
+    400270: Cylinder051
+    400272: //RootNode
+    400274: Group001
+    400276: Group002
+    400278: Group003
+    400280: Group004
+    400282: Group005
+    400284: Group006
+    400286: Group007
+    400288: Group008
+    400290: Group009
+    400292: Group010
+    400294: Group011
+    400296: Group012
+    400298: Group013
+    400300: Group1
+    400302: Group2
+    400304: Group21209
+    400306: Group21210
+    400308: Group21211
+    400310: Group3
+    400312: Group5
+    400314: Line010
+    400316: Line011
+    400318: Line012
+    400320: Line013
+    400322: Line014
+    400324: Line015
+    400326: Line016
+    400328: Line017
+    400330: Line018
+    400332: Line019
+    400334: Line020
+    400336: Line021
+    400338: Line022
+    400340: Line023
+    400342: Line024
+    400344: logo
+    400346: pensel
+    400348: pensel 1
+    400350: pensel001
+    400352: pensel002
+    400354: pensel003
+    400356: pensel004
+    400358: pensel005
+    400360: pensel006
+    400362: pensel007
+    400364: pensel008
+    400366: pensel009
+    400368: pensel010
+    400370: pensel011
+    400372: pensel012
+    400374: pensel013
+    400376: pensel014
+    400378: pensel015
+    400380: pensilbox
+    400382: pensilbox001
+    400384: pic
+    400386: pic 1
+    400388: piramida001
+    400390: Shape004
+    400392: Shape007
+    400394: Shape008
+    400396: Shape009
+    400398: Shape010
+    400400: Shape011
+    400402: Shape012
+    400404: Shape1
+    400406: Shape1 1
+    400408: Shape2
+    400410: Shape3
+    400412: Shape4
+    400414: Shape6
+    400416: skateboard 1
+    400418: skateboard 4
+    400420: Sphere001
+    400422: Sphere002
+    400424: sss
+    400426: sss 1
+    400428: sss 2
+    400430: sss005
+    400432: sss006
+    400434: table
+    400436: Torus001
+    400438: Torus002
+    400440: Torus003
+    400442: Torus004
+    400444: Torus005
+    400446: Torus006
+    400448: Torus007
+    400450: Torus008
+    400452: Torus009
+    400454: Torus010
+    400456: Torus011
+    400458: Torus012
+    400460: ZBrush_defualt_group
+    400462: "\u043B\u0435\u0433\u043E"
+    2100000: wood
+    2100002: mell 1
+    2100004: mell
+    2100006: guzefin_page
+    2100008: 1
+    2100010: guzefin_cover
+    2100012: guzefin_cover_03
+    2100014: book 8
+    2100016: 08 - VRay Material
+    2100018: 'Material #30'
+    2100020: pen 6
+    2100022: pen 5
+    2100024: pen 4
+    2100026: pen 3
+    2100028: pen 1
+    2100030: pen
+    2100032: 'Material #3398'
+    2100034: '15 Slot #1'
+    2100036: '14 Slot #1'
+    2100038: '13 Slot #1'
+    2100040: '12 Slot #1'
+    2100042: 'Material #34'
+    2100044: 'Material #33'
+    2100046: 'Material #355126'
+    2100048: 'Material #32'
+    2100050: 145
+    2100052: 21 - Defaulta
+    2100054: 0125
+    2100056: 1245
+    2100058: 27
+    2100060: 'Material #36'
+    2100062: 'Material #3399'
+    2100064: 1399
+    2100066: 'Material #2833'
+    2100068: 'Material #355124'
+    2100070: 'Material #355123'
+    2100072: 'Material #355122'
+    2100074: 'Material #355125'
+    2100076: 'Material #355121'
+    2100078: 'Material #33121'
+    2100080: 'Material #3374'
+    2100082: 'Material #3323'
+    2100084: 'Material #35545'
+    2100086: 'Material #35'
+    2100088: 'Material #28'
+    2100090: 'Material #27'
+    2100092: Dark Grey
+    2100094: METAL__Smooth__Chrome Satin
+    2100096: Material 03
+    2100098: 'Material #31'
+    2100100: CLOTH__Linen__Flaminia Parchment
+    2100102: bbs
+    2100104: basket
+    2100106: sss
+    2100108: 'Material #3'
+    2100110: 'Material #6'
+    2100112: 'Material #7'
+    2100114: 'Material #2'
+    2100116: 08 - Default
+    2100118: CLOTH
+    2100120: Cozy 2
+    2300000: 1 book
+    2300002: 1 book001
+    2300004: 2 book
+    2300006: 2 book001
+    2300008: 2 book002
+    2300010: 2 book003
+    2300012: 3 book
+    2300014: 3 book001
+    2300016: 3 book002
+    2300018: 3 book003
+    2300020: 4 book
+    2300022: 4 book001
+    2300024: 4 book002
+    2300026: 4 book003
+    2300028: 5 book
+    2300030: 5 book001
+    2300032: 5 book002
+    2300034: 5 book003
+    2300036: 6 book
+    2300038: Ball Basket
+    2300040: Ball futbool
+    2300042: Box
+    2300044: Box 1
+    2300046: Box 2
+    2300048: Box 3
+    2300050: Box 4
+    2300052: Box 5
+    2300054: Box 6
+    2300056: Box 7
+    2300058: Box001
+    2300060: Box002
+    2300062: Box003
+    2300064: Box004
+    2300066: Box005
+    2300068: Box006
+    2300070: Box007
+    2300072: Box008
+    2300074: Box009
+    2300076: Box049
+    2300078: Box052
+    2300080: Box054
+    2300082: Box055
+    2300084: Box056
+    2300086: Box057
+    2300088: Box058
+    2300090: Box059
+    2300092: Box060
+    2300094: Box061
+    2300096: Box062
+    2300098: Box063
+    2300100: Box064
+    2300102: Box065
+    2300104: Box066
+    2300106: Box067
+    2300108: Box068
+    2300110: Box069
+    2300112: Box070
+    2300114: Box071
+    2300116: Box072
+    2300118: Box073
+    2300120: Box074
+    2300122: Box075
+    2300124: Box076
+    2300126: Box077
+    2300128: Box078
+    2300130: Box1
+    2300132: chair
+    2300134: chair 1
+    2300136: chair001
+    2300138: chair002
+    2300140: chair003
+    2300142: cuba ruba
+    2300144: Cylinder001
+    2300146: Cylinder003
+    2300148: Cylinder004
+    2300150: Cylinder005
+    2300152: Cylinder006
+    2300154: Cylinder007
+    2300156: Cylinder008
+    2300158: Cylinder009
+    2300160: Cylinder010
+    2300162: Cylinder011
+    2300164: Cylinder012
+    2300166: Cylinder013
+    2300168: Cylinder014
+    2300170: Cylinder015
+    2300172: Cylinder016
+    2300174: Cylinder017
+    2300176: Cylinder017 1
+    2300178: Cylinder018
+    2300180: Cylinder019
+    2300182: Cylinder020
+    2300184: Cylinder021
+    2300186: Cylinder022
+    2300188: Cylinder023
+    2300190: Cylinder024
+    2300192: Cylinder025
+    2300194: Cylinder026
+    2300196: Cylinder027
+    2300198: Cylinder028
+    2300200: Cylinder029
+    2300202: Cylinder030
+    2300204: Cylinder031
+    2300206: Cylinder032
+    2300208: Cylinder033
+    2300210: Cylinder034
+    2300212: Cylinder035
+    2300214: Cylinder036
+    2300216: Cylinder037
+    2300218: Cylinder038
+    2300220: Cylinder039
+    2300222: Cylinder040
+    2300224: Cylinder041
+    2300226: Cylinder042
+    2300228: Cylinder043
+    2300230: Cylinder044
+    2300232: Cylinder045
+    2300234: Cylinder046
+    2300236: Cylinder047
+    2300238: Cylinder048
+    2300240: Cylinder049
+    2300242: Cylinder050
+    2300244: Cylinder051
+    2300246: Group1
+    2300248: Group2
+    2300250: Group21209
+    2300252: Group3
+    2300254: Group5
+    2300256: Line010
+    2300258: Line011
+    2300260: Line012
+    2300262: Line013
+    2300264: Line014
+    2300266: Line015
+    2300268: Line016
+    2300270: Line017
+    2300272: Line018
+    2300274: Line019
+    2300276: Line020
+    2300278: Line021
+    2300280: Line022
+    2300282: Line023
+    2300284: Line024
+    2300286: logo
+    2300288: pensel 1
+    2300290: pensel001
+    2300292: pensel002
+    2300294: pensel003
+    2300296: pensel004
+    2300298: pensel005
+    2300300: pensel006
+    2300302: pensel007
+    2300304: pensel008
+    2300306: pensel009
+    2300308: pensel010
+    2300310: pensel011
+    2300312: pensel012
+    2300314: pensel013
+    2300316: pensel014
+    2300318: pensel015
+    2300320: pic
+    2300322: pic 1
+    2300324: Shape004
+    2300326: Shape007
+    2300328: Shape008
+    2300330: Shape009
+    2300332: Shape010
+    2300334: Shape011
+    2300336: Shape012
+    2300338: Shape1
+    2300340: Shape1 1
+    2300342: Shape2
+    2300344: Shape3
+    2300346: Shape4
+    2300348: Shape6
+    2300350: Sphere001
+    2300352: Sphere002
+    2300354: sss
+    2300356: sss 1
+    2300358: sss 2
+    2300360: sss005
+    2300362: sss006
+    2300364: table
+    2300366: Torus001
+    2300368: Torus002
+    2300370: Torus003
+    2300372: Torus004
+    2300374: Torus005
+    2300376: Torus006
+    2300378: Torus007
+    2300380: Torus008
+    2300382: Torus009
+    2300384: Torus010
+    2300386: Torus011
+    2300388: Torus012
+    2300390: ZBrush_defualt_group
+    3300000: 1 book
+    3300002: 1 book001
+    3300004: 2 book
+    3300006: 2 book001
+    3300008: 2 book002
+    3300010: 2 book003
+    3300012: 3 book
+    3300014: 3 book001
+    3300016: 3 book002
+    3300018: 3 book003
+    3300020: 4 book
+    3300022: 4 book001
+    3300024: 4 book002
+    3300026: 4 book003
+    3300028: 5 book
+    3300030: 5 book001
+    3300032: 5 book002
+    3300034: 5 book003
+    3300036: 6 book
+    3300038: Ball Basket
+    3300040: Ball futbool
+    3300042: Box
+    3300044: Box 1
+    3300046: Box 2
+    3300048: Box 3
+    3300050: Box 4
+    3300052: Box 5
+    3300054: Box 6
+    3300056: Box 7
+    3300058: Box001
+    3300060: Box002
+    3300062: Box003
+    3300064: Box004
+    3300066: Box005
+    3300068: Box006
+    3300070: Box007
+    3300072: Box008
+    3300074: Box009
+    3300076: Box049
+    3300078: Box052
+    3300080: Box054
+    3300082: Box055
+    3300084: Box056
+    3300086: Box057
+    3300088: Box058
+    3300090: Box059
+    3300092: Box060
+    3300094: Box061
+    3300096: Box062
+    3300098: Box063
+    3300100: Box064
+    3300102: Box065
+    3300104: Box066
+    3300106: Box067
+    3300108: Box068
+    3300110: Box069
+    3300112: Box070
+    3300114: Box071
+    3300116: Box072
+    3300118: Box073
+    3300120: Box074
+    3300122: Box075
+    3300124: Box076
+    3300126: Box077
+    3300128: Box078
+    3300130: Box1
+    3300132: chair
+    3300134: chair 1
+    3300136: chair001
+    3300138: chair002
+    3300140: chair003
+    3300142: cuba ruba
+    3300144: Cylinder001
+    3300146: Cylinder003
+    3300148: Cylinder004
+    3300150: Cylinder005
+    3300152: Cylinder006
+    3300154: Cylinder007
+    3300156: Cylinder008
+    3300158: Cylinder009
+    3300160: Cylinder010
+    3300162: Cylinder011
+    3300164: Cylinder012
+    3300166: Cylinder013
+    3300168: Cylinder014
+    3300170: Cylinder015
+    3300172: Cylinder016
+    3300174: Cylinder017
+    3300176: Cylinder017 1
+    3300178: Cylinder018
+    3300180: Cylinder019
+    3300182: Cylinder020
+    3300184: Cylinder021
+    3300186: Cylinder022
+    3300188: Cylinder023
+    3300190: Cylinder024
+    3300192: Cylinder025
+    3300194: Cylinder026
+    3300196: Cylinder027
+    3300198: Cylinder028
+    3300200: Cylinder029
+    3300202: Cylinder030
+    3300204: Cylinder031
+    3300206: Cylinder032
+    3300208: Cylinder033
+    3300210: Cylinder034
+    3300212: Cylinder035
+    3300214: Cylinder036
+    3300216: Cylinder037
+    3300218: Cylinder038
+    3300220: Cylinder039
+    3300222: Cylinder040
+    3300224: Cylinder041
+    3300226: Cylinder042
+    3300228: Cylinder043
+    3300230: Cylinder044
+    3300232: Cylinder045
+    3300234: Cylinder046
+    3300236: Cylinder047
+    3300238: Cylinder048
+    3300240: Cylinder049
+    3300242: Cylinder050
+    3300244: Cylinder051
+    3300246: Group1
+    3300248: Group2
+    3300250: Group21209
+    3300252: Group3
+    3300254: Group5
+    3300256: Line010
+    3300258: Line011
+    3300260: Line012
+    3300262: Line013
+    3300264: Line014
+    3300266: Line015
+    3300268: Line016
+    3300270: Line017
+    3300272: Line018
+    3300274: Line019
+    3300276: Line020
+    3300278: Line021
+    3300280: Line022
+    3300282: Line023
+    3300284: Line024
+    3300286: logo
+    3300288: pensel 1
+    3300290: pensel001
+    3300292: pensel002
+    3300294: pensel003
+    3300296: pensel004
+    3300298: pensel005
+    3300300: pensel006
+    3300302: pensel007
+    3300304: pensel008
+    3300306: pensel009
+    3300308: pensel010
+    3300310: pensel011
+    3300312: pensel012
+    3300314: pensel013
+    3300316: pensel014
+    3300318: pensel015
+    3300320: pic
+    3300322: pic 1
+    3300324: Shape004
+    3300326: Shape007
+    3300328: Shape008
+    3300330: Shape009
+    3300332: Shape010
+    3300334: Shape011
+    3300336: Shape012
+    3300338: Shape1
+    3300340: Shape1 1
+    3300342: Shape2
+    3300344: Shape3
+    3300346: Shape4
+    3300348: Shape6
+    3300350: Sphere001
+    3300352: Sphere002
+    3300354: sss
+    3300356: sss 1
+    3300358: sss 2
+    3300360: sss005
+    3300362: sss006
+    3300364: table
+    3300366: Torus001
+    3300368: Torus002
+    3300370: Torus003
+    3300372: Torus004
+    3300374: Torus005
+    3300376: Torus006
+    3300378: Torus007
+    3300380: Torus008
+    3300382: Torus009
+    3300384: Torus010
+    3300386: Torus011
+    3300388: Torus012
+    3300390: ZBrush_defualt_group
+    4300000: Shape1
+    4300002: Shape2
+    4300004: Shape3
+    4300006: Shape4
+    4300008: Shape6
+    4300010: Shape007
+    4300012: Shape008
+    4300014: Shape009
+    4300016: Shape010
+    4300018: Shape011
+    4300020: Shape012
+    4300022: Box001
+    4300024: Cylinder001
+    4300026: 5 book
+    4300028: 2 book
+    4300030: 4 book
+    4300032: 3 book
+    4300034: 1 book
+    4300036: Box007
+    4300038: Box008
+    4300040: Line015
+    4300042: Cylinder009
+    4300044: Cylinder008
+    4300046: Line014
+    4300048: Cylinder007
+    4300050: Line013
+    4300052: Cylinder006
+    4300054: Line012
+    4300056: Cylinder005
+    4300058: Line011
+    4300060: Line010
+    4300062: Cylinder004
+    4300064: Cylinder012
+    4300066: Line018
+    4300068: pensel004
+    4300070: pensel005
+    4300072: pensel006
+    4300074: pensel007
+    4300076: Sphere001
+    4300078: Torus006
+    4300080: Torus005
+    4300082: chair
+    4300084: Cylinder014
+    4300086: Line020
+    4300088: Line021
+    4300090: Cylinder015
+    4300092: sss
+    4300094: Cylinder017
+    4300096: Cylinder016
+    4300098: Cylinder017
+    4300100: Cylinder018
+    4300102: Cylinder019
+    4300104: Cylinder020
+    4300106: Cylinder021
+    4300108: Cylinder022
+    4300110: Cylinder023
+    4300112: Cylinder024
+    4300114: Cylinder025
+    4300116: Cylinder026
+    4300118: Cylinder027
+    4300120: Cylinder028
+    4300122: Cylinder029
+    4300124: Cylinder030
+    4300126: Cylinder031
+    4300128: Cylinder032
+    4300130: Cylinder033
+    4300132: Cylinder034
+    4300134: Cylinder035
+    4300136: Cylinder036
+    4300138: Cylinder037
+    4300140: Cylinder038
+    4300142: Cylinder039
+    4300144: Cylinder040
+    4300146: Cylinder041
+    4300148: Cylinder042
+    4300150: Cylinder043
+    4300152: Cylinder044
+    4300154: pensel008
+    4300156: pic
+    4300158: pic
+    4300160: pensel002
+    4300162: Cylinder010
+    4300164: Line016
+    4300166: pensel001
+    4300168: pensel
+    4300170: pensel003
+    4300172: Cylinder013
+    4300174: Line019
+    4300176: Cylinder011
+    4300178: Line017
+    4300180: Cylinder003
+    4300182: Torus002
+    4300184: Torus003
+    4300186: Torus004
+    4300188: Torus001
+    4300190: chair001
+    4300192: Box052
+    4300194: Box1
+    4300196: Box057
+    4300198: Box055
+    4300200: Box058
+    4300202: Box056
+    4300204: Box049
+    4300206: Box054
+    4300208: Box005
+    4300210: Box004
+    4300212: Box003
+    4300214: Box009
+    4300216: Box
+    4300218: Box
+    4300220: Box
+    4300222: Box
+    4300224: Box
+    4300226: Box
+    4300228: Box
+    4300230: Box
+    4300232: Box006
+    4300234: Box002
+    4300236: chair
+    4300238: chair003
+    4300240: chair002
+    4300242: table
+    4300244: sss005
+    4300246: sss006
+    4300248: Shape004
+    4300250: Shape1
+    4300252: sss
+    4300254: sss
+    4300256: Group21209
+    4300258: Ball Basket
+    4300260: Ball futbool
+    4300262: 3 book003
+    4300264: 5 book001
+    4300266: 1 book001
+    4300268: 3 book001
+    4300270: 4 book001
+    4300272: 2 book001
+    4300274: 5 book003
+    4300276: 3 book002
+    4300278: 4 book003
+    4300280: 2 book003
+    4300282: Torus007
+    4300284: Torus008
+    4300286: Torus009
+    4300288: Torus010
+    4300290: Torus011
+    4300292: Sphere002
+    4300294: Torus012
+    4300296: pensel009
+    4300298: Cylinder045
+    4300300: Line022
+    4300302: pensel010
+    4300304: pensel011
+    4300306: pensel012
+    4300308: Cylinder046
+    4300310: Line023
+    4300312: Cylinder047
+    4300314: Line024
+    4300316: Cylinder048
+    4300318: 5 book002
+    4300320: 4 book002
+    4300322: 2 book002
+    4300324: cuba ruba
+    4300326: Box063
+    4300328: Box064
+    4300330: Box067
+    4300332: Box078
+    4300334: Box077
+    4300336: Box075
+    4300338: Box074
+    4300340: Box076
+    4300342: Box073
+    4300344: Box071
+    4300346: Box072
+    4300348: Box069
+    4300350: Box070
+    4300352: Box068
+    4300354: Box060
+    4300356: Box065
+    4300358: Box066
+    4300360: Group1
+    4300362: Group3
+    4300364: Group2
+    4300366: Group5
+    4300368: logo
+    4300370: ZBrush_defualt_group
+    4300372: Box059
+    4300374: 6 book
+    4300376: Box061
+    4300378: Box062
+    4300380: pensel015
+    4300382: pensel013
+    4300384: pensel014
+    4300386: Cylinder049
+    4300388: Cylinder050
+    4300390: Cylinder051
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pen 6
+    second: {fileID: 2100000, guid: bd38bac92c098924bb11863c389815b3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
