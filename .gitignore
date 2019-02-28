@@ -36,3 +36,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/3D Scenes/ExteriorView/LightingData.asset
+Assets/3D Scenes/Interior/LightingData.asset
