@@ -38285,8 +38285,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771471906}
-  m_LocalRotation: {x: 0.15106782, y: 0.04688928, z: 0.007173128, w: -0.9873847}
-  m_LocalPosition: {x: -28.06928, y: 0.3231511, z: -28.68691}
+  m_LocalRotation: {x: 0.29504234, y: 0.17481431, z: 0.055002477, w: -0.9377445}
+  m_LocalPosition: {x: -0.24333715, y: 1.9275682, z: 3.1194663}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 236389016}
@@ -41342,6 +41342,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002698387}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2004070023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 139950, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_Name
+      value: Toon Wizard-Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.636
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.301
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.4476093
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.43216372
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2622434
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.73763734
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 60.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 445754, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
 --- !u!1001 &2007288871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43217,6 +43286,18 @@ PrefabInstance:
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
