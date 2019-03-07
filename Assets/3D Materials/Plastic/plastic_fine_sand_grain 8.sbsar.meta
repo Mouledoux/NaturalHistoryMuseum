@@ -26,23 +26,7 @@ ScriptedImporter:
       />\n </sbspreset>\n"
     shaderName: Standard
     outputNames: baseColor,normal,metallic,height
-    texturePackingList:
-    - outputName: diffuse
-      alphaSource: diffuse
-    - outputName: baseColor
-      alphaSource: baseColor
-    - outputName: normal
-      alphaSource: normal
-    - outputName: specular
-      alphaSource: specular
-    - outputName: glossiness
-      alphaSource: glossiness
-    - outputName: roughness
-      alphaSource: roughness
-    - outputName: metallic
-      alphaSource: smoothness
-    - outputName: height
-      alphaSource: height
+    texturePackingList: []
     textureParameters:
     - textureName: Plastic Fine Sand Grain - glossiness
       wrapMode: 0
