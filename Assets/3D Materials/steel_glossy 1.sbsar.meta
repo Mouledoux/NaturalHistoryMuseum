@@ -3,10 +3,8 @@ guid: b3f623b563ba42b47b402d3ba0037c8a
 ScriptedImporter:
   fileIDToRecycleName:
     2100000: Steel Glossy
-    2800000: Steel Glossy - baseColor
     2800002: Steel Glossy - normal
-    2800004: Steel Glossy - metallic
-    2800006: Steel Glossy - height
+    2800008: Steel Glossy - diffuse
     11400000: sbsar
     11400002: graph0
   externalObjects: {}
@@ -29,25 +27,9 @@ ScriptedImporter:
       />\n  <presetinput identifier=\"saturation\" uid=\"146784762\" type=\"0\" value=\"0.55\"
       />\n  <presetinput identifier=\"normal_intensity\" uid=\"146685582\" type=\"0\"
       value=\"0\" />\n </sbspreset>\n"
-    shaderName: Standard
-    outputNames: baseColor,normal,metallic,height
-    texturePackingList:
-    - outputName: diffuse
-      alphaSource: diffuse
-    - outputName: baseColor
-      alphaSource: baseColor
-    - outputName: normal
-      alphaSource: normal
-    - outputName: specular
-      alphaSource: specular
-    - outputName: glossiness
-      alphaSource: glossiness
-    - outputName: roughness
-      alphaSource: roughness
-    - outputName: metallic
-      alphaSource: smoothness
-    - outputName: height
-      alphaSource: height
+    shaderName: Ciconia Studio/Double Sided/Standard/Diffuse Bump
+    outputNames: diffuse,normal
+    texturePackingList: []
     textureParameters:
     - textureName: Steel Glossy - glossiness
       wrapMode: 0
