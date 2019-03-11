@@ -10,8 +10,6 @@ public class ForceTeleport : MonoBehaviour
     private Quaternion originalRot;
     public GameObject objectRef;
 
-
-
     // ---------- ---------- ---------- ---------- ---------- 
     private void Start()
     {
@@ -25,6 +23,7 @@ public class ForceTeleport : MonoBehaviour
     // ---------- ---------- ---------- ---------- ---------- 
     public void TeleportPlayerToTransform(Transform pos)
     {
+        StopCoroutine(FadeInOut());
         StartCoroutine(FadeInOut());
 
         objectRef.transform.position = pos.position;
@@ -58,14 +57,12 @@ public class ForceTeleport : MonoBehaviour
     // ---------- ---------- ---------- ---------- ---------- 
     public IEnumerator FadeInOut()
     {
-
         if (blindfold != null)
         {
             Color c = blindfold.color;
-            print(blindfold.color);
             c.a = 1f;
             blindfold.color = c;
-            
+
             while (blindfold.color.a > 0.01f)
             {
                 c.a -= (Time.deltaTime / fadeTime);
@@ -77,7 +74,6 @@ public class ForceTeleport : MonoBehaviour
             blindfold.color = c;
         }
     }
-
 
     // ---------- ---------- ---------- ---------- ---------- 
     public IEnumerator TimeToTeleportBack(float time)

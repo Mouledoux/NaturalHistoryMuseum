@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SingleActiveButtonManager : MonoBehaviour
 {
+    bool ClickFirstOnStart = false;
     private List<UnityEngine.UI.Button> m_managedButtons = new List<UnityEngine.UI.Button>();
     
 	void Start ()
@@ -14,8 +15,11 @@ public class SingleActiveButtonManager : MonoBehaviour
             m_managedButtons.Add(button);
         }
 
-        m_managedButtons[0].onClick.Invoke();
-        UpdateButtons(m_managedButtons[0]);
+        if (ClickFirstOnStart)
+        {
+            m_managedButtons[0].onClick.Invoke();
+            UpdateButtons(m_managedButtons[0]);
+        }
 	}
 
     private void UpdateButtons(UnityEngine.UI.Button activeButton)
