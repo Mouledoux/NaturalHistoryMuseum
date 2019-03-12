@@ -12,6 +12,7 @@ public class SingleActiveButtonManager : MonoBehaviour
         foreach (UnityEngine.UI.Button button in GetComponentsInChildren<UnityEngine.UI.Button>())
         {
             button.onClick.AddListener(()=> UpdateButtons(button));
+            button.image.alphaHitTestMinimumThreshold = 1f;
             m_managedButtons.Add(button);
         }
 

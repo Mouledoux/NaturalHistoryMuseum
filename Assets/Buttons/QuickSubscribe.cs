@@ -9,6 +9,7 @@ public class QuickSubscribe : MonoBehaviour
     
 
     public string m_subMessage;
+    public float m_delay = 0f;
     public UnityEngine.Events.UnityEvent m_event;
        
 	void Awake ()
@@ -19,6 +20,12 @@ public class QuickSubscribe : MonoBehaviour
 
     private void InvokeUnityEvent(Mouledoux.Callback.Packet emptyPacket)
     {
+        StartCoroutine(iInvokeUnityEvent(emptyPacket));
+    }
+
+    private IEnumerator iInvokeUnityEvent(Mouledoux.Callback.Packet emptyPacket)
+    {
+        yield return new WaitForSeconds(m_delay);
         m_event.Invoke();
     }
 
