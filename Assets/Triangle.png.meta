@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -50,7 +50,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -105,8 +105,14 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
-    physicsShape: []
+    outline:
+    - - {x: -422, y: 365.5}
+      - {x: 422, y: 365.5}
+      - {x: 0, y: -365.5}
+    physicsShape:
+    - - {x: -422, y: 365.5}
+      - {x: 422, y: 365.5}
+      - {x: 0, y: -365.5}
     bones: []
     spriteID: b32217cd1220c6146b3c38fa08ae05c1
     vertices: []

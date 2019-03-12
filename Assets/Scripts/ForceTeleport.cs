@@ -59,6 +59,8 @@ public class ForceTeleport : MonoBehaviour
     {
         if (blindfold != null)
         {
+            blindfold.gameObject.SetActive(true);
+
             Color c = blindfold.color;
             c.a = 1f;
             blindfold.color = c;
@@ -74,6 +76,9 @@ public class ForceTeleport : MonoBehaviour
 
             c.a = 0f;
             blindfold.color = c;
+
+            blindfold.gameObject.SetActive(false);
+            blindfold.gameObject.SetActive(false);
         }
     }
 

@@ -459,6 +459,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -300
       objectReference: {fileID: 0}
+    - target: {fileID: 9076557934080678919, guid: 3ffa0c2cd95efbd429ddcc961d6a1169,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076557934080678917, guid: 3ffa0c2cd95efbd429ddcc961d6a1169,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8335196229379492446, guid: 3ffa0c2cd95efbd429ddcc961d6a1169,
         type: 3}
       propertyPath: ClickFirstOnStart
@@ -583,6 +593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335196229146808627, guid: 3ffa0c2cd95efbd429ddcc961d6a1169,
+        type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ffa0c2cd95efbd429ddcc961d6a1169, type: 3}
@@ -1491,7 +1506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.039215688}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1838,6 +1853,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687818804}
   m_CullTransparentMesh: 0
+--- !u!1 &1920135768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9076557934080678917, guid: 3ffa0c2cd95efbd429ddcc961d6a1169,
+    type: 3}
+  m_PrefabInstance: {fileID: 132182481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1920135769
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920135768}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1931437363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,7 +2003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
