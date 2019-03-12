@@ -63,6 +63,8 @@ public class ForceTeleport : MonoBehaviour
             c.a = 1f;
             blindfold.color = c;
 
+            yield return new WaitForSeconds(3f);
+
             while (blindfold.color.a > 0.01f)
             {
                 c.a -= (Time.deltaTime / fadeTime);

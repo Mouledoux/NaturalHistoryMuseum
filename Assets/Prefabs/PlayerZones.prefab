@@ -47,7 +47,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9076557932407682763}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -238,7 +238,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9076557932900037090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -415,7 +415,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9076557933093548133}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -492,7 +492,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9076557933349301508}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -651,6 +651,7 @@ GameObject:
   - component: {fileID: 9076557933567413984}
   - component: {fileID: 9076557933567413985}
   - component: {fileID: 5737393989765715953}
+  - component: {fileID: 7849972745953427573}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -790,6 +791,23 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &7849972745953427573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9076557933567413997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8114caa28493f9b4f9bada89b14e51e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationSpeed: 10
+  MouseButton: 0
+  RotateX: 1
+  RotateY: 1
+  Anchor: {fileID: 0}
 --- !u!1 &9076557933570695739
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +855,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9076557933570695739}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -988,7 +1006,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9076557934150877505}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1025,11 +1043,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9076557932905647936}
     m_Modifications:
-    - target: {fileID: 1034413489246602967, guid: b1db0e25e0f152e4eb2516e97235142e,
-        type: 3}
-      propertyPath: m_Name
-      value: CircleButtons
-      objectReference: {fileID: 0}
     - target: {fileID: 1034413489246602966, guid: b1db0e25e0f152e4eb2516e97235142e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1133,7 +1146,12 @@ PrefabInstance:
     - target: {fileID: 1034413489246602966, guid: b1db0e25e0f152e4eb2516e97235142e,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034413489246602967, guid: b1db0e25e0f152e4eb2516e97235142e,
+        type: 3}
+      propertyPath: m_Name
+      value: CircleButtons
       objectReference: {fileID: 0}
     - target: {fileID: 1034413489546141104, guid: b1db0e25e0f152e4eb2516e97235142e,
         type: 3}
@@ -1194,6 +1212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: NavButtonClick:Alcove
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034413489246602964, guid: b1db0e25e0f152e4eb2516e97235142e,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1db0e25e0f152e4eb2516e97235142e, type: 3}

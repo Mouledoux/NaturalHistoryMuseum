@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SingleActiveButtonManager : MonoBehaviour
 {
-    bool ClickFirstOnStart = false;
+    public bool ClickFirstOnStart = false;
     private List<UnityEngine.UI.Button> m_managedButtons = new List<UnityEngine.UI.Button>();
     
 	void Start ()
