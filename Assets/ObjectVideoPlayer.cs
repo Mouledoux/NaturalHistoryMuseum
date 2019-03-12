@@ -9,11 +9,6 @@ public class ObjectVideoPlayer : MonoBehaviour
 
     public UnityEngine.Events.UnityEvent OnVideoFinish;
 
-    void Start()
-    {
-        
-    }
-
 
     public void PlayVideo(float delay = 0f)
     {
@@ -23,11 +18,19 @@ public class ObjectVideoPlayer : MonoBehaviour
     public IEnumerator iPlayVideo(float delay)
     {
         yield return new WaitForSeconds(delay);
-
         videoPlayer.Play();
-
+        
+        yield return new WaitUntil(() => videoPlayer.isPlaying);
         yield return new WaitWhile(() => videoPlayer.isPlaying);
-
         OnVideoFinish.Invoke();
     }
+
+    public void StopVideo()
+    {
+        if (!videoPlayer.isPlaying) return;
+
+        videoPlayer.Stop();
+        OnVideoFinish.Invoke();
+    }
+
 }
