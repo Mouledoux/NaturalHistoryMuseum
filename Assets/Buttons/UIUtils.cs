@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIUtils : MonoBehaviour
 {
-    private string sceneLoadMessage;
+    private string sceneLoadMessage = "";
     public void SetSceneLoadMessage(string message)
     {
         sceneLoadMessage = message;

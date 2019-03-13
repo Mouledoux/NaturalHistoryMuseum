@@ -78,7 +78,6 @@ public class ForceTeleport : MonoBehaviour
             blindfold.color = c;
 
             blindfold.gameObject.SetActive(false);
-            blindfold.gameObject.SetActive(false);
         }
     }
 

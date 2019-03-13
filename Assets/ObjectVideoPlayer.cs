@@ -9,6 +9,10 @@ public class ObjectVideoPlayer : MonoBehaviour
 
     public UnityEngine.Events.UnityEvent OnVideoFinish;
 
+    private void Start()
+    {
+        GetComponent<Animator>().SetFloat("RandomSpeed", Random.Range(0.5f, 0.7f));  
+    }
 
     public void PlayVideo(float delay = 0f)
     {
