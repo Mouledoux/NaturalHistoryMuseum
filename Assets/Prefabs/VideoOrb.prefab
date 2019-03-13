@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 210165248174309443}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 3000195530317950392}
   - component: {fileID: 1262397228481467721}
   - component: {fileID: 1359545725956394384}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: VideoPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8355926916159860758}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ScaleMod
   m_TagString: Untagged
   m_Icon: {fileID: 0}

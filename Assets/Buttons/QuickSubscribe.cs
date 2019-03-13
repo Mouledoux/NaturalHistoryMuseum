@@ -20,6 +20,7 @@ public class QuickSubscribe : MonoBehaviour
 
     private void InvokeUnityEvent(Mouledoux.Callback.Packet emptyPacket)
     {
+        if (!isActiveAndEnabled) return;
         StartCoroutine(iInvokeUnityEvent(emptyPacket));
     }
 
