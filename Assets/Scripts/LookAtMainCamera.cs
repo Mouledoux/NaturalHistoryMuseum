@@ -6,6 +6,8 @@ public class LookAtMainCamera : MonoBehaviour
 {    
     void Update()
     {
+        if (Camera.main == null) return;
+
         Vector3 camPos = Camera.main.transform.position;
         camPos.y = transform.position.y;
 

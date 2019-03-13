@@ -14,8 +14,6 @@ public class SceneCacher : MonoBehaviour
     {
         yield return new WaitForSeconds(4f);
 
-        if (complete) Destroy(gameObject);
-
         DontDestroyOnLoad(gameObject);
         AsyncOperation loadingNextScene;
 
@@ -26,11 +24,16 @@ public class SceneCacher : MonoBehaviour
         }
 
         SceneManager.LoadSceneAsync(0);
-
-        Mouledoux.Components.Mediator.instance.NotifySubscribers(cacheCompleteMessage);
-        onCacheComplete.AddListener(() => Destroy(gameObject));
-        onCacheComplete.Invoke();
-
         complete = true;
+    }
+
+    private void Update()
+    {
+        if (complete)
+        {
+            StopAllCoroutines();
+            Destroy(gameObject);
+            Mouledoux.Components.Mediator.instance.NotifySubscribers(cacheCompleteMessage);
+        }
     }
 }
