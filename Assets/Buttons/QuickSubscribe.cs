@@ -33,4 +33,9 @@ public class QuickSubscribe : MonoBehaviour
     {
         Mouledoux.Components.Mediator.instance.NotifySubscribers(message);
     }
+
+    private void OnDestroy()
+    {
+        m_subscriptions.UnsubscribeAll();   
+    }
 }
