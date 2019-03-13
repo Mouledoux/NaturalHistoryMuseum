@@ -8,23 +8,29 @@ public class SceneCacher : MonoBehaviour
     public string cacheCompleteMessage = "";
     public UnityEngine.Events.UnityEvent onCacheComplete;
 
+    private static bool complete = false;
+
     private IEnumerator Start()
     {
-        DontDestroyOnLoad(gameObject);
-        //onCacheComplete.AddListener(() => Destroy(gameObject));
+        yield return new WaitForSeconds(4f);
 
-        yield return new WaitForEndOfFrame();
+        if (complete) Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject);
         AsyncOperation loadingNextScene;
-        for (int i = 1; i < SceneManager.sceneCount; ++i)
+
+        for (int i = 1; i < SceneManager.sceneCountInBuildSettings; ++i)
         {
-            loadingNextScene = SceneManager.LoadSceneAsync(i, LoadSceneMode.Additive);
+            loadingNextScene = SceneManager.LoadSceneAsync(i);
             yield return new WaitUntil(() => loadingNextScene.isDone);
-            print(i + "done");
         }
 
-        SceneManager.SetActiveScene(SceneManager.GetSceneAt(0));
+        SceneManager.LoadSceneAsync(0);
 
-        onCacheComplete.Invoke();
         Mouledoux.Components.Mediator.instance.NotifySubscribers(cacheCompleteMessage);
+        onCacheComplete.AddListener(() => Destroy(gameObject));
+        onCacheComplete.Invoke();
+
+        complete = true;
     }
 }

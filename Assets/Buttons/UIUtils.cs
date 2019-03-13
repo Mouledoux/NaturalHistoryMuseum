@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIUtils : MonoBehaviour
 {
@@ -17,36 +18,40 @@ public class UIUtils : MonoBehaviour
 
     public void GoToScene(int index)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(index);
+        SceneManager.LoadScene(index);
     }
 
     public void GoToScene(string name)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(name);
+        SceneManager.LoadScene(name);
     }
 
     public void ReloadCurrentScene()
     {
-        GoToScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        GoToScene(SceneManager.GetActiveScene().name);
     }
 
 
 
     public void GoToSceneAsync(int index)
     {
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == index) return;
-        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(index);
+        if (SceneManager.GetActiveScene().buildIndex == index) return;
+        SceneManager.LoadSceneAsync(index);
     }
 
     public void GoToSceneAsync(string name)
     {
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == name) return;
-        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(name);
+        if (SceneManager.GetActiveScene().name == name) return;
+
+        else if (SceneManager.GetSceneByName(name).IsValid())
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName(name));
+
+        SceneManager.LoadSceneAsync(name);
     }
 
     public void ReloadCurrentSceneAsync()
     {
-        GoToSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        GoToSceneAsync(SceneManager.GetActiveScene().name);
     }
 
 
@@ -58,7 +63,7 @@ public class UIUtils : MonoBehaviour
 
     public static void StaticReloadCurrentSceneAsync()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
     }
 
     public void ToggleGameobjectEnable(GameObject go)
