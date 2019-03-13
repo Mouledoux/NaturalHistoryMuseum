@@ -5,7 +5,7 @@ using UnityEngine;
 public class QuickSubscribe : MonoBehaviour
 {
     private Mouledoux.Components.Mediator.Subscriptions m_subscriptions = new Mouledoux.Components.Mediator.Subscriptions();
-    private Mouledoux.Callback.Callback m_subCallback;
+    private Mouledoux.Callback.Callback m_subCallback = null;
     
 
     public string m_subMessage;
