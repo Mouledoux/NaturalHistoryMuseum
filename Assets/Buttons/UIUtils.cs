@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class UIUtils : MonoBehaviour
 {
+    private string sceneLoadMessage;
+    public void SetSceneLoadMessage(string message)
+    {
+        sceneLoadMessage = message;
+    }
+    public string GetSceneLoadMessage()
+    {
+        return sceneLoadMessage;
+    }
+
+
     public void GoToScene(int index)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(index);
@@ -39,6 +50,11 @@ public class UIUtils : MonoBehaviour
     }
 
 
+    private void OnLevelWasLoaded(int level)
+    {
+        NotifySubscribers(sceneLoadMessage);
+    }
+
 
     public static void StaticReloadCurrentSceneAsync()
     {
@@ -59,6 +75,8 @@ public class UIUtils : MonoBehaviour
     {
         Mouledoux.Components.Mediator.instance.NotifySubscribers(subscription);
     }
+
+
 
     public void ResetPosition(GameObject go)
     {
