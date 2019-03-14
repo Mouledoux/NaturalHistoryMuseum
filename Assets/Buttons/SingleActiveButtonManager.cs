@@ -18,8 +18,7 @@ public class SingleActiveButtonManager : MonoBehaviour
 
         if (ClickFirstOnStart)
         {
-            m_managedButtons[0].onClick.Invoke();
-            UpdateButtons(m_managedButtons[0]);
+            InvokeButton(0);
         }
 	}
 
@@ -31,5 +30,11 @@ public class SingleActiveButtonManager : MonoBehaviour
         }
 
         activeButton.interactable = false;
+    }
+
+    public void InvokeButton(int index)
+    {
+        m_managedButtons[index].onClick.Invoke();
+        UpdateButtons(m_managedButtons[index]);
     }
 }
