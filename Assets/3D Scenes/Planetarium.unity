@@ -7921,6 +7921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa1bdff305ca2804ba48e497618390d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1
 --- !u!114 &1462076119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7937,7 +7938,6 @@ MonoBehaviour:
   m_skyboxes:
   - {fileID: 2100000, guid: 9f69d571a9cb54943b5a80ccd6b19e96, type: 2}
   - {fileID: 2100000, guid: 269967744bbed1849a317b8175dc3f43, type: 2}
-  - {fileID: 2100000, guid: 246d4b1ad4a63004d8fcf3949494e5b3, type: 2}
 --- !u!4 &1462076120
 Transform:
   m_ObjectHideFlags: 0
