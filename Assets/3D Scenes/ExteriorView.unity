@@ -2508,7 +2508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: ColorModule.enabled
@@ -2537,6 +2537,10 @@ PrefabInstance:
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.4313813
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
@@ -3567,7 +3571,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 1496b90e9aca97b43822e762d468f44b,
+      objectReference: {fileID: 32900000, guid: f9e2af26831002b49b878099dce2bff7,
         type: 3}
     - target: {fileID: 1812743166309000437, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
@@ -22794,7 +22798,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 853485e0a6904184cbf99db7d1e33338,
+      objectReference: {fileID: 32900000, guid: b616bb8cf73a0e64ab4141a568b86034,
         type: 3}
     - target: {fileID: 1812743166309000437, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
@@ -35640,7 +35644,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: f055957399fc9ac48b68f29d9e0c4f7e,
+      objectReference: {fileID: 32900000, guid: 703a68069ee71c340a98be5cd342fb32,
         type: 3}
     - target: {fileID: 1812743166309000437, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
@@ -35736,7 +35740,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: b0bef17a5adf2394a85e5d97ca6e9bc7,
+      objectReference: {fileID: 32900000, guid: bdbd6a475a97ca14a9e407f6355f288a,
         type: 3}
     - target: {fileID: 1812743166309000437, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
@@ -38580,8 +38584,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771471906}
-  m_LocalRotation: {x: -0.08852314, y: 0.8160688, z: 0.12988712, w: 0.55616957}
-  m_LocalPosition: {x: -37.62761, y: -10.767473, z: -18.875599}
+  m_LocalRotation: {x: -0.014898343, y: 0.8707224, z: 0.02642506, w: 0.49083838}
+  m_LocalPosition: {x: -32.6676, y: 0.008717537, z: -9.031055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 236389016}
@@ -40013,7 +40017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: ColorModule.enabled
@@ -40030,6 +40034,10 @@ PrefabInstance:
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
@@ -40598,7 +40606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: ColorModule.enabled
@@ -40615,6 +40623,10 @@ PrefabInstance:
     - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
       propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f796efec5677b1f45be54470e344a4ea, type: 3}
