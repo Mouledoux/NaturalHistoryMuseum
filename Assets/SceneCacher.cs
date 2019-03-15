@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class SceneCacher : MonoBehaviour
 {
+    public Text currentLoading;
+    public Slider loadingBar;
+
     public string cacheCompleteMessage = "";
     public UnityEngine.Events.UnityEvent onCacheComplete;
 
@@ -20,7 +24,14 @@ public class SceneCacher : MonoBehaviour
         for (int i = 1; i < SceneManager.sceneCountInBuildSettings; ++i)
         {
             loadingNextScene = SceneManager.LoadSceneAsync(i);
-            yield return new WaitUntil(() => loadingNextScene.isDone);
+            currentLoading.text = SceneManager.GetSceneByBuildIndex(i).name;
+            MuteAllAudio();
+
+            while (!loadingNextScene.isDone)
+            {
+                loadingBar.value = loadingNextScene.progress;
+                yield return null;
+            }
         }
 
         SceneManager.LoadSceneAsync(0);
@@ -34,6 +45,14 @@ public class SceneCacher : MonoBehaviour
             StopAllCoroutines();
             Destroy(gameObject);
             Mouledoux.Components.Mediator.instance.NotifySubscribers(cacheCompleteMessage);
+        }
+    }
+
+    public void MuteAllAudio()
+    {
+        foreach(AudioSource audioSource in FindObjectsOfType<AudioSource>())
+        {
+            audioSource.mute = true;
         }
     }
 }
