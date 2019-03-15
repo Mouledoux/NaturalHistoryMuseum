@@ -10,9 +10,18 @@ public class SkyboxSwapper : MonoBehaviour
 
     void Start()
     {
+        SwitchSky();
+    }
+
+    public void SwitchSky()
+    {
+        print("I am working");
+
         RenderSettings.skybox =
             m_random ?
             m_skyboxes[Random.Range(0, m_skyboxes.Length)] :
             m_skyboxes[(++m_currentSkyboxIndex % m_skyboxes.Length)];
+
+        print(m_currentSkyboxIndex);
     }
 }

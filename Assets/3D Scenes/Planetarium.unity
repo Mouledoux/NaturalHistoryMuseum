@@ -39,13 +39,13 @@ RenderSettings:
   m_ReflectionIntensity: 0.8
   m_CustomReflection: {fileID: 8900000, guid: e0a272cc4eacb5d4ebdd0363a0247f9e, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.012262319, g: 0.0038143375, b: 0.0053712633, a: 0.8}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.8}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1178,6 +1178,97 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd4f43a5995571a4eb1ebbbbd7ca6cf1, type: 3}
+--- !u!1 &278902671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100084, guid: bd4f43a5995571a4eb1ebbbbd7ca6cf1,
+    type: 3}
+  m_PrefabInstance: {fileID: 278902670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &278902672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278902671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 278902673}
+          m_MethodName: NotifySubscribers
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Switch
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 278902674}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &278902673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278902671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1de5cefa0c3674291ddf9e3453c0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_subMessage: Switch
+  m_delay: 10
+  m_event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 278902674}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!135 &278902674
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278902671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.22096173
+  m_Center: {x: 0.09296924, y: 0.20631857, z: 1.4408166}
 --- !u!1 &290687997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,19 +2082,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5fb768e194a152c45ab5b8f4bafe23fd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92b591bfc31cc524fbc19564f8f50381, type: 3}
---- !u!65 &425151624
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928879726}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.0969334, y: 1.2954005, z: 0.02963335}
-  m_Center: {x: -25.799381, y: 8.262503, z: 0.21801671}
 --- !u!1001 &474123648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3887,6 +3965,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 8355926916159860758, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355926916159860758, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355926916159860758, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16
+      objectReference: {fileID: 0}
     - target: {fileID: 368185477953596078, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -5006,7 +5099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5088,6 +5181,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2.89
       objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5126,6 +5231,48 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: c43124bcac6454e4da0343006f47f747, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f73999d60b79b2e4183b7c04589844db, type: 3}
+--- !u!1 &859103084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f73999d60b79b2e4183b7c04589844db,
+    type: 3}
+  m_PrefabInstance: {fileID: 859103083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &859103085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859103084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1de5cefa0c3674291ddf9e3453c0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_subMessage: Switch
+  m_delay: 0
+  m_event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 859103086}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Switch
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!95 &859103086 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: f73999d60b79b2e4183b7c04589844db,
+    type: 3}
+  m_PrefabInstance: {fileID: 859103083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &868314089
 GameObject:
   m_ObjectHideFlags: 0
@@ -8170,6 +8317,7 @@ GameObject:
   - component: {fileID: 1462076120}
   - component: {fileID: 1462076119}
   - component: {fileID: 1462076118}
+  - component: {fileID: 1462076121}
   m_Layer: 0
   m_Name: Sky
   m_TagString: Untagged
@@ -8220,6 +8368,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1462076121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462076117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1de5cefa0c3674291ddf9e3453c0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_subMessage: SwitchSky
+  m_delay: 0
+  m_event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1462076119}
+        m_MethodName: SwitchSky
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1494803894
 GameObject:
   m_ObjectHideFlags: 0
@@ -79912,7 +80090,6 @@ GameObject:
   - component: {fileID: 1929364046}
   - component: {fileID: 1925939820}
   - component: {fileID: 1926938796}
-  - component: {fileID: 425151624}
   m_Layer: 0
   m_Name: Floor Floor - Slab - 1'-2" [1296973]
   m_TagString: Untagged
