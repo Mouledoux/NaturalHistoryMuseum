@@ -24,6 +24,8 @@ public class ObjectVideoPlayer : MonoBehaviour
         yield return new WaitForSeconds(delay);
         videoPlayer.Play();
         
+        //while(videoPlayer.transform)
+
         yield return new WaitUntil(() => videoPlayer.isPlaying);
         yield return new WaitWhile(() => videoPlayer.isPlaying);
         OnVideoFinish.Invoke();
