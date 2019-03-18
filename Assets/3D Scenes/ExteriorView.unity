@@ -73,7 +73,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 0
+    m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 100
@@ -38667,8 +38667,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771471906}
-  m_LocalRotation: {x: -0.15237328, y: 0.7647087, z: 0.19594713, w: 0.59464926}
-  m_LocalPosition: {x: -34.005455, y: -2.2193098, z: -11.4531}
+  m_LocalRotation: {x: 0.047901556, y: 0.8491608, z: 0.07820915, w: -0.52011025}
+  m_LocalPosition: {x: 1.3383975, y: -4.7206826, z: -5.120449}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 236389016}
