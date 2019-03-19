@@ -1,11 +1,11 @@
 ﻿/*  Author:     Eric Mouledoux
-*   Contatct:   EricMouledoux@gmail.com
+*   Contact:    EricMouledoux@gmail.com
 *   
 *   Usage:
 *       Attach script to desired object to rotate
 *       Set rotation speed modifier (1 by default)
 *       Set desired mouse input to trigger rotation (LMB by default)
-*       Pick which asis can rotate (X, Y, Z);
+*       Pick which axis can rotate (X, Y, Z);
 *       Done!
 *   
 *   Notes:
@@ -36,7 +36,7 @@ public class RotationToMouseTracking : MonoBehaviour
     }
 
     /// <summary>
-    /// Reorientates this gameObject based on the movement of the mosuse, while the LMB is held
+    /// Reorients this gameObject based on the movement of the mosuse, while the LMB is held
     /// </summary>
     /// <returns></returns>
     IEnumerator MoveToCursor()
@@ -89,7 +89,7 @@ public class RotationToMouseTracking : MonoBehaviour
         }
     }
     /// <summary>
-    /// Modifier to Increse/Decrease/Invert object rotation
+    /// Modifier to Increase/Decrease/Invert object rotation
     /// </summary>
     [SerializeField] private float RotationSpeed = 1f;
     /// <summary>
@@ -104,7 +104,7 @@ public class RotationToMouseTracking : MonoBehaviour
     /// </summary>
     [SerializeField] private bool RotateX, RotateY;
     /// <summary>
-    /// Object to rotate around instead on inplace (Optional)
+    /// Object to rotate around instead of in place (Optional)
     /// </summary>
     [SerializeField] private GameObject Anchor;
 

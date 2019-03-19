@@ -24,11 +24,11 @@ public class SceneCacher : MonoBehaviour
         for (int i = 1; i < SceneManager.sceneCountInBuildSettings; ++i)
         {
             loadingNextScene = SceneManager.LoadSceneAsync(i);
-            currentLoading.text = SceneManager.GetSceneByBuildIndex(i).name;
             MuteAllAudio();
 
             while (!loadingNextScene.isDone)
             {
+                currentLoading.text = "Loading: " + SceneManager.GetSceneByBuildIndex(i).name + " " + ((int)(100 * loadingNextScene.progress)).ToString() + "%";
                 loadingBar.value = loadingNextScene.progress;
                 yield return null;
             }

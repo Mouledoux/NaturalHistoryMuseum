@@ -2252,7 +2252,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Please wait while we get things ready...
 
-    This may take several minutes.'
+    This should only take a minute.'
 --- !u!222 &1404671672
 CanvasRenderer:
   m_ObjectHideFlags: 0

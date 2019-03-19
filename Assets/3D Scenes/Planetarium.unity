@@ -73,7 +73,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 1
+    m_BakeBackend: 2
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 2000
     m_PVRSampleCount: 3000
@@ -3966,6 +3966,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 368185477953596078, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: NotifySubscribers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329161569818067867, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8355926916159860758, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3980,16 +3990,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 368185477953596078, guid: 1626e7fdb571a864d99ed50eac4e5048,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: NotifySubscribers
-      objectReference: {fileID: 0}
-    - target: {fileID: 5329161569818067867, guid: 1626e7fdb571a864d99ed50eac4e5048,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1626e7fdb571a864d99ed50eac4e5048, type: 3}
@@ -9411,6 +9411,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1844331966}
     m_Modifications:
+    - target: {fileID: 111364, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 139950, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
       propertyPath: m_Name
       value: Toon Wizard-Blue
@@ -9473,10 +9477,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9563508, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 111364, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19868142, guid: 24f018e3b408d764a9008b7620ec0ff1, type: 3}
