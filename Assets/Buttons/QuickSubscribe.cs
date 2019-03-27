@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuickSubscribe : MonoBehaviour
+public class QuickSubscribe : UIUtils
 {
     private Mouledoux.Components.Mediator.Subscriptions m_subscriptions = new Mouledoux.Components.Mediator.Subscriptions();
     private Mouledoux.Callback.Callback m_subCallback = null;
@@ -28,11 +28,6 @@ public class QuickSubscribe : MonoBehaviour
     {
         yield return new WaitForSeconds(m_delay);
         m_event.Invoke();
-    }
-
-    public void NotifySubscribers(string message)
-    {
-        Mouledoux.Components.Mediator.instance.NotifySubscribers(message);
     }
 
     private void OnDestroy()
