@@ -76,17 +76,17 @@ public class OfflineUserInfo : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.Escape))
-            fileOpenTimer += Time.deltaTime;
-        else
-            fileOpenTimer = 0f;
+        // if(Input.GetKey(KeyCode.Escape))
+        //     fileOpenTimer += Time.deltaTime;
+        // else
+        //     fileOpenTimer = 0f;
 
-        if(fileOpenTimer >= fileOpenTime)
-        {
-            AppendToFile();
-            fileOpenTime = 0f;
-            OpenCSVLocation();
-        }
+        // if(fileOpenTimer >= fileOpenTime)
+        // {
+        //     AppendToFile();
+        //     fileOpenTime = 0f;
+        //     OpenCSVLocation();
+        // }
     }
 
     public void OnDestroy()
@@ -194,7 +194,7 @@ public class OfflineUserInfo : MonoBehaviour
     }
     
     
-    public static string csvFile;
+    public static string csvFile = "MetaData";
 
     private int videosPlayed, resets, exterior, discovery, exhibit, alcove, planetarium, comparison;
     private float fileOpenTimer = 0f;
