@@ -32,6 +32,6 @@ public class QuickSubscribe : UIUtils
 
     private void OnDestroy()
     {
-        m_subscriptions.UnsubscribeAll();   
+        m_subscriptions.UnsubscribeAll();
     }
 }

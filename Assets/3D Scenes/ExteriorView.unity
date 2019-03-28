@@ -22794,6 +22794,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4475177770951800960, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475177770951800960, guid: 1626e7fdb571a864d99ed50eac4e5048,
+        type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1359545725956394384, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
       propertyPath: m_VideoClip
@@ -22814,16 +22824,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475177770951800960, guid: 1626e7fdb571a864d99ed50eac4e5048,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475177770951800960, guid: 1626e7fdb571a864d99ed50eac4e5048,
-        type: 3}
-      propertyPath: Loop
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1626e7fdb571a864d99ed50eac4e5048, type: 3}
@@ -35723,7 +35723,7 @@ PrefabInstance:
     - target: {fileID: 1359545725956394384, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1812743166309000437, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
@@ -38736,8 +38736,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771471906}
-  m_LocalRotation: {x: -0.30962437, y: 0.51501817, z: 0.20651004, w: 0.7721675}
-  m_LocalPosition: {x: -5.8368406, y: -6.439509, z: -0.57616615}
+  m_LocalRotation: {x: -0.090078294, y: 0.825552, z: 0.13776246, w: 0.5397883}
+  m_LocalPosition: {x: -27.629486, y: -1.8152747, z: -6.9774513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 236389016}
@@ -39184,7 +39184,7 @@ PrefabInstance:
     - target: {fileID: 1359545725956394384, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1812743166309000437, guid: 1626e7fdb571a864d99ed50eac4e5048,
         type: 3}
