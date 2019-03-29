@@ -14,6 +14,8 @@ public class SceneCacher : MonoBehaviour
 
     private static bool complete = false;
 
+    public int endScene;
+
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(4f);
@@ -34,7 +36,7 @@ public class SceneCacher : MonoBehaviour
             }
         }
 
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(endScene);
         complete = true;
     }
 

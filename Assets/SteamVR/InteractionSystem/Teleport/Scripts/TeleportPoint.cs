@@ -1,4 +1,5 @@
-﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
+﻿    
+//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //
 // Purpose: Single location that the player can teleport to
 //
@@ -25,6 +26,7 @@ namespace Valve.VR.InteractionSystem
 		public TeleportPointType teleportType = TeleportPointType.MoveToLocation;
 		public string title;
 		public string switchToScene;
+        public Vector3 newSceneStartPosition;
 		public Color titleVisibleColor;
 		public Color titleHighlightedColor;
 		public Color titleLockedColor;
@@ -221,7 +223,9 @@ namespace Valve.VR.InteractionSystem
 		{
 			if ( !string.IsNullOrEmpty( switchToScene ) )
 			{
-				Debug.Log("<b>[SteamVR Interaction]</b> TeleportPoint: Hook up your level loading logic to switch to new scene: " + switchToScene );
+                //Debug.Log("<b>[SteamVR Interaction]</b> TeleportPoint: Hook up your level loading logic to switch to new scene: " + switchToScene );
+                UnityEngine.SceneManagement.SceneManager.LoadScene(switchToScene);
+                Valve.VR.InteractionSystem.Player.instance.gameObject.transform.position = newSceneStartPosition;
 			}
 			else
 			{
