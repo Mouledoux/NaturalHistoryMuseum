@@ -108,6 +108,11 @@ public class RotationToMouseTracking : MonoBehaviour
     /// </summary>
     [SerializeField] private GameObject Anchor;
 
+
+    public float SetRotationSpeed
+    {
+        set { RotationSpeed = value; }
+    }
     public bool EnableXRotation
     {
         get { return RotateX; }
