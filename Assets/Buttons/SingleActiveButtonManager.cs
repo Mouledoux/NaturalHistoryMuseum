@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SingleActiveButtonManager : MonoBehaviour
 {
+    private UnityEngine.UI.Button m_currentActiveButton;
     public bool ClickFirstOnStart = false;
     private List<UnityEngine.UI.Button> m_managedButtons = new List<UnityEngine.UI.Button>();
     
@@ -29,12 +30,27 @@ public class SingleActiveButtonManager : MonoBehaviour
             button.interactable = true;
         }
 
-        activeButton.interactable = false;
+        m_currentActiveButton = activeButton;
+        m_currentActiveButton.interactable = false;
     }
 
     public void InvokeButton(int index)
     {
-        m_managedButtons[index].onClick.Invoke();
-        UpdateButtons(m_managedButtons[index]);
+        m_currentActiveButton = m_managedButtons[index];
+        m_currentActiveButton.onClick.Invoke();
+        UpdateButtons(m_currentActiveButton);
+    }
+
+    public void DisableAll()
+    {
+        foreach(UnityEngine.UI.Button b in m_managedButtons)
+        {
+            b.interactable = false;
+        }
+    }
+
+    public void EnableAll()
+    {
+        UpdateButtons(m_currentActiveButton);
     }
 }
