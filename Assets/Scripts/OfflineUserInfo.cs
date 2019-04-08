@@ -62,9 +62,9 @@ public class OfflineUserInfo : MonoBehaviour
         Exhibit += IncreaseExhibit;
         Alcove += IncreaseAlcove;
         Planetarium += IncreasePlanetarium;
-        Comparison += IncreasePlanetarium;
+        Comparison += IncreaseComparison;
 
-        subscriptions.Subscribe("VideoStart", Exterior);
+        subscriptions.Subscribe("VideoStart", Videos);
         subscriptions.Subscribe("Reset", Resets);
         subscriptions.Subscribe("NavButtonClick:Exterior", Exterior);
         subscriptions.Subscribe("NavButtonClick:Discovery", Discovery);
@@ -110,18 +110,13 @@ public class OfflineUserInfo : MonoBehaviour
     public void AppendToFile()
     {
         string path = csvFile;
-
+        string info = "";
         System.IO.StreamWriter file = System.IO.File.AppendText(path);
 
-        if (!File.Exists(path))
-        {
-            file.WriteLine("Date, Total Videos Played, Application Resets, Exterior, Discovery Room, Exhibit Hall, Alcove, Planetarium, Comparison");
-        }
-
         string[] information = {Date(), videosPlayed.ToString(), resets.ToString(),
-        exterior.ToString(), discovery.ToString(), exhibit.ToString(), alcove.ToString(), planetarium.ToString(), comparison.ToString()};
+        (exterior - resets).ToString(), discovery.ToString(), exhibit.ToString(), alcove.ToString(), planetarium.ToString(), comparison.ToString()};
 
-        string info = ConvertToCSVLine(information);
+        info += ConvertToCSVLine(information);
 
         file.WriteLine(info);
         file.Close();
@@ -136,8 +131,8 @@ public class OfflineUserInfo : MonoBehaviour
 
     public static string Date()
     {
-        return System.DateTime.Now.Year.ToString() + "/ " +
-            System.DateTime.Now.Month.ToString() + "/ " +
+        return System.DateTime.Now.Year.ToString() + "/" +
+            System.DateTime.Now.Month.ToString() + "/" +
             System.DateTime.Now.Day.ToString();
     }
 
@@ -150,7 +145,7 @@ public class OfflineUserInfo : MonoBehaviour
             returnString += (s + ", ");
         }
 
-        return returnString.Substring(0, returnString.Length -2);
+        return returnString.Substring(0, returnString.Length -2) + "\n";
     }
 
     private void IncreaseVideos(Mouledoux.Callback.Packet data)
